@@ -12,6 +12,6 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function d1(){
-        dsfdsfc
+        sodium_crypto_secretstream_xchacha20poly1305_init_pull();
     }
 }
