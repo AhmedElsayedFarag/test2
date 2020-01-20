@@ -19,5 +19,6 @@ class Controller extends BaseController
 
     public function d1(){
         sodium_crypto_secretstream_xchacha20poly1305_init_pull();
+        askldfjklsadfkh
     }
 }
